@@ -27,7 +27,7 @@ This repository contains code for an app using Docker containers, fine-tuned Dis
    ```bash
    uvicorn app:app --reload
 
-9. Once completed, the simple UI is now available at: 'http://localhost:8000'
+9. After it starts the server, the simple UI will be available at: 'http://localhost:8000'
    This can be accessed from the web-browser.
 
 Note: By default, the pipeline uses the 'DistilBert' model, which I wanted to use for this project. DistilBert is a 'distilled' version of the BERT model that shows performance similar to BERT however is significantly smaller in size.  It has 40% less parameters than BERT and makes it more memory efficient for projects running on local machine, while still providing good performance such as BERT on binary classification tasks. 
