@@ -4,12 +4,14 @@ This repository contains code for an app using Docker containers, fine-tuned Dis
 
 ## Cloning the Repository
 
-1. To clone the repository, run the following command:
+To clone the repository, run the following command:
+
 ```bash
 git clone https://github.com/nabilsafwat/Sentiment-Inference-App.git
 
-## Running Docker
-Ensure you have Docker installed and running on your machine. I ran the Docker CLI to manage the docker container. To run the app using Docker, navigate to the cloned repository and build the Docker image:
+
+Running Docker
+Ensure you have Docker installed and running on your machine. Use the Docker CLI to manage the Docker container. To run the app using Docker, navigate to the cloned repository and build the Docker image:
 
 ```bash
 cd Sentiment-Inference-App
