@@ -2,7 +2,7 @@
 
 This repository contains code for an app using Docker containers, fine-tuned Distillbert model, Nginx and a simple User Interface that posts requests to an inference pipeline for sentiment analysis. I used the Ubuntu Desktop App for this project. 
 
-1. Cloning the Repository
+## Cloning the Repository
 
 To clone the repository, run the following command:
 
@@ -10,7 +10,7 @@ To clone the repository, run the following command:
 git clone https://github.com/nabilsafwat/Sentiment-Inference-App.git
 
 
-2. Running Docker
+## Running Docker
 Ensure you have Docker installed and running on your machine. I ran the Docker CLI to manage the docker container. To run the app using Docker, navigate to the cloned repository and build the Docker image:
 
 ```bash
