@@ -11,7 +11,7 @@ git clone https://github.com/nabilsafwat/Sentiment-Inference-App.git
 
 
 2. Running Docker
-Ensure you have Docker installed on your machine. I ran the Docker CLI to manage the docker container. To run the app using Docker, navigate to the cloned repository and build the Docker image:
+Ensure you have Docker installed and running on your machine. I ran the Docker CLI to manage the docker container. To run the app using Docker, navigate to the cloned repository and build the Docker image:
 
 ```bash
 cd Sentiment-Inference-App
