@@ -32,7 +32,13 @@ This repository contains code for an app using Docker containers, fine-tuned Dis
 
 Note: By default, the pipeline uses the 'DistilBert' model, which I wanted to use for this project. DistilBert is a 'distilled' version of the BERT model that shows performance similar to BERT however is significantly smaller in size.  It has 40% less parameters than BERT and makes it more memory efficient for projects running on local machine, while still providing good performance such as BERT on binary classification tasks. 
 
+## Testing
+
 The server is capable of dealing with multiple requests at the same time. It has been tested using 'Apache Bench' to simulate multiple concurrent users accessing the application, to measure it's performance under load. A total of 100 requests were sent with 10 requests being handled concurrently.
+
+1. Make sure the package 'apache2-utils' is installed. Then:
+   ```bash
+   ab -n 100 -c 10 http://localhost:8000/
 
 ## Expected Output
 
