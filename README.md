@@ -34,10 +34,6 @@ Note: By default, the pipeline uses the 'DistilBert' model, which I wanted to us
 
 The server is capable of dealing with multiple requests at the same time. It has been tested using 'Apache Bench' to simulate multiple concurrent users accessing the application, to measure it's performance under load. A total of 100 requests were sent with 10 requests being handled concurrently. To try this:
 
-Make sure apache2-utils package is installed.
-```bash
-ab -n 100 -c 10 http://localhost:8000/
-
 ## Expected Output
 
 ![sen1](https://github.com/nabilsafwat/Sentiment-Inference-App/assets/61869179/b618a11b-5f7b-41ea-adda-d5e9c7d4407d)
